@@ -1,0 +1,30 @@
+.nav {
+    background-color: blue;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav ul li a {
+    color: #fff;
+}
+.nav ul li a:active, 
+.nav ul li a.active {
+    color: brown;
+}
+
+.active {
+    color: orange;
+}
+
+
